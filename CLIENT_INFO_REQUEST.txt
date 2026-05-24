@@ -1,0 +1,432 @@
+================================================================================
+EUROPEAN ELECTRIC LLC - WEBSITE INFORMATION REQUEST
+================================================================================
+Please fill in all items below. These details go directly into the live website.
+Logo: already received - no logo needed.
+Photos: not needed in this round.
+
+Last updated: __________  |  Filled in by: __________
+
+
+================================================================================
+A. BUSINESS IDENTITY & CONTACT
+================================================================================
+A1. Legal business name (exact spelling):
+    >> 
+
+A2. Short brand name (for menus / mobile / footer):
+    >> 
+
+A3. One-line tagline (max 80 characters, used in header & SEO):
+    >> 
+
+A4. Primary phone number (with country code, exactly as you want it shown):
+    >> 
+
+A5. Emergency / 24-hour phone (if different):
+    >> 
+
+A6. WhatsApp number (international format, digits only, no spaces/dashes/+):
+    Example: 14155551234 for +1 (415) 555-1234
+    >> 
+
+A7. Primary email address (must be a working inbox):
+    >> 
+
+A8. Secondary / quoting email (if any):
+    >> 
+
+A9. Full physical address (street, city, state/region, ZIP, country):
+    >> 
+
+A10. Google Maps link or pin for office location:
+    >> 
+
+A11. Business hours per day (or 24/7):
+    Mon: __________   Tue: __________   Wed: __________
+    Thu: __________   Fri: __________   Sat: __________
+    Sun: __________   Emergency line hours: __________
+
+A12. Year established / "in business since":
+    >> 
+
+
+================================================================================
+B. LICENSING & COMPLIANCE  (required to display by law in many states)
+================================================================================
+B1. State / county electrical license number(s):
+    >> 
+
+B2. Insurance carrier name + coverage summary (e.g. "$2M general liability"):
+    >> 
+
+B3. Bonding info (carrier + amount), if any:
+    >> 
+
+B4. Certifications you want listed
+    (EV charger OEM cert, NABCEP, OSHA-30, IBEW, master electrician, etc.):
+    >> 
+
+B5. BBB rating / member ID:
+    >> 
+
+B6. EIN / business registration number (for legal pages, may NOT be public):
+    >> 
+
+
+================================================================================
+C. SERVICE AREAS  (huge for local Google rankings)
+================================================================================
+C1. Primary city you are based in:
+    >> 
+
+C2. Full list of cities / counties / ZIP codes you serve
+    (10-30 entries is normal):
+    >> 
+    >> 
+    >> 
+    >> 
+    >> 
+    >> 
+    >> 
+    >> 
+    >> 
+    >> 
+
+C3. Maximum travel radius (miles or km):
+    >> 
+
+C4. Cities or areas you explicitly do NOT serve:
+    >> 
+
+
+================================================================================
+D. SERVICES
+================================================================================
+Confirm or correct this default list. Strike out any you don't offer and add new ones.
+
+  1. Residential Electrical
+  2. Commercial Electrical
+  3. EV Chargers & Smart Home
+  4. Lighting Design & Install
+  5. Generator & Backup Power
+  6. 24/7 Emergency Service
+  7. _______________________
+  8. _______________________
+  9. _______________________
+ 10. _______________________
+
+For EACH service above please provide:
+    a) 1-2 sentence description:
+    b) Starting price OR "Call for quote":
+    c) Warranty terms (e.g. "12-month workmanship guarantee"):
+
+(Repeat the a/b/c block for each service - feel free to attach a separate doc.)
+
+
+================================================================================
+E. TEAM
+================================================================================
+For each team member you want shown on the website, provide:
+    - Full name
+    - Job title
+    - 1-line bio (e.g. "Master electrician, 15+ years")
+    - Years of experience
+    - LinkedIn URL (optional)
+
+Person 1:
+    Name:        _______________________________
+    Title:       _______________________________
+    Bio:         _______________________________
+    Years exp.:  _______________________________
+    LinkedIn:    _______________________________
+
+Person 2:
+    Name:        _______________________________
+    Title:       _______________________________
+    Bio:         _______________________________
+    Years exp.:  _______________________________
+    LinkedIn:    _______________________________
+
+Person 3:
+    Name:        _______________________________
+    Title:       _______________________________
+    Bio:         _______________________________
+    Years exp.:  _______________________________
+    LinkedIn:    _______________________________
+
+(...continue for each team member - or paste a list below)
+
+Total employee count to display (e.g. "20+ master electricians"):
+    >> 
+
+Founder / owner name (for About page):
+    >> 
+
+
+================================================================================
+F. TESTIMONIALS & PROJECTS  (text only, no photos needed now)
+================================================================================
+
+------ TESTIMONIALS  (5 to 10 real customer reviews) ------
+Testimonial 1
+    Customer name (first name + last initial, e.g. "John D."): __________
+    City:        __________
+    Star rating (1-5): __________
+    Service used (optional): __________
+    Quote (1-3 sentences):
+    >> 
+
+Testimonial 2
+    Customer name:  __________
+    City:           __________
+    Star rating:    __________
+    Service used:   __________
+    Quote:
+    >> 
+
+Testimonial 3
+    Customer name:  __________
+    City:           __________
+    Star rating:    __________
+    Service used:   __________
+    Quote:
+    >> 
+
+(... continue for as many as you have)
+
+------ RECENT PROJECTS  (6+ highlights) ------
+Project 1
+    Project name:   __________
+    Location/city:  __________
+    Service category (Residential / Commercial / EV / etc.): __________
+    1-paragraph description:
+    >> 
+
+Project 2
+    Project name:   __________
+    Location/city:  __________
+    Service category: __________
+    Description:
+    >> 
+
+(...continue for each project)
+
+
+================================================================================
+G. SOCIAL MEDIA  (URLs only - no logos needed)
+================================================================================
+G1. Facebook URL:                 >> 
+G2. Instagram URL:                >> 
+G3. LinkedIn URL:                 >> 
+G4. YouTube channel URL:          >> 
+G5. TikTok URL (if any):          >> 
+G6. Google Business Profile URL:  >> 
+G7. Yelp URL:                     >> 
+G8. Other (Nextdoor, Thumbtack, Angi, HomeAdvisor):
+    >> 
+
+
+================================================================================
+H. ONLINE PRESENCE & DOMAIN
+================================================================================
+H1. Final domain name you own (e.g. europeanelectric.com):
+    >> 
+
+H2. Subdomain preference - 'www.' OR root:
+    >> 
+
+H3. DNS / hosting provider (so we know where to point the site):
+    >> 
+
+H4. Google Analytics 4 measurement ID (format: G-XXXXXXXXXX), if any:
+    >> 
+
+H5. Google Tag Manager container ID (GTM-XXXXXXX), if any:
+    >> 
+
+H6. Meta (Facebook) Pixel ID, if any:
+    >> 
+
+H7. Google Search Console verification:
+    Already verified? (yes/no) >> 
+    If yes, account email: __________
+
+H8. reCAPTCHA site key + secret (for contact form spam protection):
+    Site key:   __________
+    Secret key: __________
+    (If you don't have one we'll create on your behalf)
+
+
+================================================================================
+I. LEAD ROUTING & FORMS
+================================================================================
+I1. Where should website form submissions be delivered?
+    Primary email:   __________
+    CC emails:       __________
+
+I2. Do you use a CRM?
+    (HubSpot, Salesforce, ServiceTitan, Housecall Pro, Jobber, etc.)
+    >> 
+
+I3. Auto-reply text to send the customer after a form submit
+    (kept short, friendly, will include your name automatically):
+    >> 
+
+I4. Preferred "Thank you" page wording after a quote request:
+    >> 
+
+I5. Expected response time you want to commit to publicly
+    (e.g. "We reply within 1 business hour"):
+    >> 
+
+
+================================================================================
+J. LEGAL & FOOTER CONTENT
+================================================================================
+J1. Privacy Policy text:
+    [ ] I will provide my own (paste below or attach)
+    [ ] Please draft a generic one for me to review
+    Text (if provided):
+    >> 
+
+J2. Terms of Service text:
+    [ ] I will provide my own
+    [ ] Please draft a generic one for me to review
+    Text (if provided):
+    >> 
+
+J3. Cookie policy preference - does the site need a banner?
+    [ ] Yes - GDPR (EU visitors expected)
+    [ ] Yes - CCPA (California visitors expected)
+    [ ] No banner needed
+
+J4. Copyright line wording (default: "(c) 2026 European Electric LLC. All rights reserved."):
+    >> 
+
+J5. Accessibility statement preference:
+    [ ] Required by my state - please add
+    [ ] Not required, skip
+
+
+================================================================================
+K. FREQUENTLY ASKED QUESTIONS  (will go on the home page + FAQ page)
+================================================================================
+Provide 5-10 real questions customers ask, with your preferred answers.
+
+Q1. >> 
+A1. >> 
+
+Q2. >> 
+A2. >> 
+
+Q3. >> 
+A3. >> 
+
+Q4. >> 
+A4. >> 
+
+Q5. >> 
+A5. >> 
+
+Q6. >> 
+A6. >> 
+
+Q7. >> 
+A7. >> 
+
+Q8. >> 
+A8. >> 
+
+(Common ones to consider: Do you offer free estimates? Are you licensed in <state>?
+ Do you pull permits? Do you offer financing? What is your warranty? What is your
+ response time? Do you charge after-hours rates? Do you work with insurance claims?)
+
+
+================================================================================
+L. FINANCING & PAYMENT
+================================================================================
+L1. Accepted payment methods (cards, ACH, financing, cash, check):
+    >> 
+
+L2. Financing partner name + URL (if you offer 0% / installment plans):
+    Partner:  __________
+    URL:      __________
+
+L3. Any promotional offer to show on the site
+    (e.g. "$50 off first service" or "Free EV charger assessment"):
+    >> 
+
+
+================================================================================
+M. CALLS-TO-ACTION WORDING
+================================================================================
+M1. Hero headline preference (default suggestion shown):
+    Default: "Reliable Electrical Services for Homes & Businesses"
+    Your version:
+    >> 
+
+M2. Primary CTA button text (default: "Get A Free Estimate"):
+    >> 
+
+M3. Secondary CTA button text (default: "Our Services"):
+    >> 
+
+M4. Any tagline you always use in ads/print you want kept consistent here:
+    >> 
+
+
+================================================================================
+N. SEO META  (titles + descriptions per page)
+================================================================================
+For each page below, give a preferred title (max ~60 chars) and meta description
+(max ~155 chars). If you have an SEO person, ask them for these.
+
+N1. Home page
+    Title:         __________
+    Description:   __________
+
+N2. About page
+    Title:         __________
+    Description:   __________
+
+N3. Services page
+    Title:         __________
+    Description:   __________
+
+N4. Contact page
+    Title:         __________
+    Description:   __________
+
+N5. Target keywords (top 5-10 phrases you want to rank for):
+    e.g. "electrician fairfax va", "ev charger installation maryland"
+    >> 
+
+
+================================================================================
+O. MISCELLANEOUS
+================================================================================
+O1. Email signature / disclaimer text for auto-replies:
+    >> 
+
+O2. Holiday hours policy (e.g. closed on July 4, Thanksgiving, etc.):
+    >> 
+
+O3. Languages other than English you support
+    (for "Hablamos Espanol" type badges):
+    >> 
+
+O4. Trade union / industry affiliations
+    (IBEW Local #, NECA member, master electricians' association):
+    >> 
+
+O5. Anything else you want on the website that is not covered above:
+    >> 
+
+
+================================================================================
+END OF FORM
+================================================================================
+Please email this completed file back, or share a Google Doc with the same
+sections filled in. The more detail provided here, the less back-and-forth
+needed during launch.
