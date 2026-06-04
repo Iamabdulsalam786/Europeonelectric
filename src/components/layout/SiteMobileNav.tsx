@@ -29,7 +29,7 @@ const menuItems: MenuItemType[] = [
   { title: 'About', path: '/#about' },
   { title: 'Services', path: '/#services' },
   { title: 'Projects', path: '/#projects' },
-  { title: 'Team', path: '/#team' },
+  // { title: 'Team', path: '/#team' }, // hidden alongside the Team section - un-comment to restore
   { title: 'Testimonials', path: '/#testimonials' },
   // { title: 'FAQ', path: '/#faq' }, // hidden alongside the FAQ section - un-comment to restore
   { title: 'Contact', path: '/#contact' },

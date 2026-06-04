@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { FaArrowRight } from 'react-icons/fa6'
+import { FaArrowRight, FaBolt } from 'react-icons/fa6'
 import { Link } from 'gatsby'
 
 import img1 from '@/assets/img/all-images/service-img1.png'
@@ -9,6 +9,8 @@ import img3 from '@/assets/img/all-images/service-img3.png'
 import img4 from '@/assets/img/all-images/service-img4.png'
 import img5 from '@/assets/img/all-images/service-img5.png'
 import img6 from '@/assets/img/all-images/service-img6.png'
+import img7 from '@/assets/img/all-images/service-img7.png'
+import img8 from '@/assets/img/all-images/service-img8.png'
 
 export type ServiceType = {
   duration: number
@@ -16,49 +18,81 @@ export type ServiceType = {
   number: number
   title: string
   description: string
+  highlights: string[]
 }
+
 const serviceData: ServiceType[] = [
   {
     duration: 800,
     image: img1,
     number: 1,
     title: 'Residential Electrical',
-    description: 'Panel upgrades, rewiring, outlets, ceiling fans, lighting and safety inspections for your home.',
+    description:
+      'Full-service repairs, installations and rewiring for homes — from troubleshooting flickering lights to upgrading your entire electrical panel.',
+    highlights: ['Repairs & troubleshooting', 'Outlets, switches & fixtures', 'Whole-house rewiring', 'Panel & service upgrades'],
   },
   {
     duration: 1000,
     image: img2,
     number: 2,
     title: 'Commercial Electrical',
-    description: 'Tenant fit-outs, dedicated circuits, lighting retrofits and energy upgrades for offices and retail.',
+    description:
+      'Tenant build-outs, dedicated power systems, lighting retrofits and preventive maintenance for offices, retail and restaurants.',
+    highlights: ['Tenant improvements', 'Power distribution systems', 'LED & emergency lighting', 'Maintenance & repairs'],
   },
   {
     duration: 1200,
     image: img3,
     number: 3,
-    title: 'EV Chargers & Smart Home',
-    description: 'Level 2 EV charger installs, smart switches, surge protection and 24/7 emergency response.',
+    title: 'EV Charger Installation',
+    description:
+      'Certified Tesla & Level 2 charger installs for homes and businesses, including circuit work, permits and ongoing diagnostics.',
+    highlights: ['Tesla & Level 2 chargers', 'Home charging stations', 'Fleet & commercial sites', 'Diagnostics & repairs'],
   },
   {
     duration: 800,
     image: img4,
     number: 4,
-    title: 'Lighting Design & Install',
-    description: 'Recessed, landscape, accent and energy-efficient LED lighting designed and installed by certified pros.',
+    title: 'Lighting Solutions',
+    description:
+      'Indoor, outdoor and smart lighting designed and installed by certified pros — recessed, landscape, security, automated controls and more.',
+    highlights: ['Recessed & pendant lighting', 'Landscape & security lights', 'Smart switches & scenes', 'Motion & pathway lighting'],
   },
   {
     duration: 1000,
     image: img5,
     number: 5,
-    title: 'Generator & Backup Power',
-    description: 'Whole-home and standby generator installation, transfer switches and battery backup solutions.',
+    title: 'Panel Upgrades',
+    description:
+      '100A to 200A and 200A to 400A service upgrades, panel & breaker replacements, subpanels and meter coordination with the utility.',
+    highlights: ['Panel replacement', '100A → 200A → 400A upgrades', 'Subpanel installation', 'Breaker & fuse box swaps'],
   },
   {
     duration: 1200,
     image: img6,
     number: 6,
+    title: 'Safety & Inspections',
+    description:
+      'Code-compliance inspections, GFCI/AFCI installs, grounding and surge protection — keeping your property safe and insurance-ready.',
+    highlights: ['Home & commercial inspections', 'GFCI / AFCI installation', 'Surge protection & grounding', 'Permit & code corrections'],
+  },
+  {
+    duration: 800,
+    image: img7,
+    number: 7,
     title: '24/7 Emergency Service',
-    description: 'Round-the-clock response for power outages, electrical faults, sparking outlets and code-red issues.',
+    description:
+      'Round-the-clock response for burning smells, power outages, electrical fires, tripped breakers and storm damage. Residential & commercial.',
+    highlights: ['Power outage diagnosis', 'Burning smell investigations', 'Emergency breaker replacement', 'Storm damage repairs'],
+  },
+  {
+    duration: 1000,
+    image: img8,
+    number: 8,
+    title: 'New Construction & Remodels',
+    description:
+      'Complete electrical design and install for new builds, kitchen & bath remodels, additions and ADUs — plus temporary construction power.',
+    highlights: ['Full electrical system design', 'New home & commercial wiring', 'Kitchen / bath remodel wiring', 'Appliance & fixture hookups'],
   },
 ]
 
@@ -68,14 +102,15 @@ const Service = () => {
       <div className="service1-section-area sp2">
         <Container>
           <Row>
-            <Col lg={6} className="m-auto">
+            <Col lg={7} className="m-auto">
               <div className="service-header-area heading2 text-center">
                 <h5 data-aos="fade-up" data-aos-duration={800}>
                   Our Services
                 </h5>
                 <h2 className="tg-element-title">Full-Service Electrical Expertise</h2>
                 <p data-aos="fade-up" data-aos-duration={1000}>
-                  One licensed team for every electrical need — residential, commercial and emergency — with transparent pricing and guaranteed workmanship.
+                  One licensed team for every electrical need — residential, commercial, EV charging and 24/7 emergency — with transparent
+                  pricing and guaranteed workmanship.
                 </p>
               </div>
             </Col>
@@ -85,12 +120,20 @@ const Service = () => {
               <Col lg={4} md={6} key={idx} data-aos="zoom-out" data-aos-duration={item.duration}>
                 <div className="service-auhtor-boxarea">
                   <div className="img1">
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt={item.title} />
                   </div>
                   <div className="content-area">
-                    <h3>0{item.number}</h3>
+                    <h3>{item.number < 10 ? `0${item.number}` : item.number}</h3>
                     <Link to="/service-single">{item.title}</Link>
                     <p>{item.description}</p>
+                    <ul className="service-highlights">
+                      {item.highlights.map((h) => (
+                        <li key={h}>
+                          <FaBolt aria-hidden="true" />
+                          <span>{h}</span>
+                        </li>
+                      ))}
+                    </ul>
                     <Link to="/service-single" className="readmore">
                       Learn More <FaArrowRight className="fa-solid" />
                     </Link>

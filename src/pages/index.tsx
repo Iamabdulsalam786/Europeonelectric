@@ -5,7 +5,7 @@ import Contact from '@/pages/home-2/components/Contact'
 // import FAQ from '@/pages/home-2/components/FAQ' // temporarily hidden; re-enable to show FAQ section
 // import LatestNews from '@/pages/home-2/components/LatestNews' // temporarily hidden; re-enable to show "Our Latest News"
 import OurApproach from '@/pages/home-2/components/Service'
-import Team from '@/pages/home-2/components/Team'
+// import Team from '@/pages/home-2/components/Team' // temporarily hidden per client request; re-enable to show Team section
 import Testimonials from '@/pages/home-2/components/Testimonials'
 import HomeHero from '@/pages/home/HomeHero'
 import HomeLayout from '@/pages/home/HomeLayout'
@@ -32,10 +32,10 @@ const Home = () => {
       <section id="testimonials">
         <Testimonials />
       </section>
+      {/*
       <section id="team">
         <Team />
       </section>
-      {/*
       <section id="faq">
         <FAQ />
       </section>

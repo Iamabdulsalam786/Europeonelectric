@@ -14,7 +14,7 @@ import React from 'react'
 // import { Col, Row } from 'react-bootstrap'
 // import { FaAngleDown, FaArrowRight } from 'react-icons/fa6'
 
-const sectionIds = ['home', 'about', 'services', 'projects', 'team', 'testimonials', 'contact']
+const sectionIds = ['home', 'about', 'services', 'projects', 'testimonials', 'contact']
 
 // type HomeVariant = {
 //   label: string
@@ -110,11 +110,14 @@ const SiteNav = () => {
           Projects
         </Link>
       </li>
+      {/*
+      Team link hidden alongside the Team section. Un-comment to restore.
       <li>
         <Link to="/#team" className={isActive('team')}>
           Team
         </Link>
       </li>
+      */}
       <li>
         <Link to="/#testimonials" className={isActive('testimonials')}>
           Testimonials

@@ -9,6 +9,65 @@
   visibility: visible !important;
 }
 
+/* ============= SERVICE CARD HIGHLIGHTS LIST =============
+   Compact bulleted list inside each service card that surfaces the
+   key sub-services for that category (e.g. "Tesla & Level 2 chargers"
+   under "EV Charger Installation"). Intentionally minimal so the
+   existing service-card design stays untouched. */
+.service1-section-area .service-auhtor-boxarea .content-area {
+  .service-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 18px 0 0;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-family: var(--ztc-family-font1);
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--ztc-text-text-4);
+      font-weight: 500;
+      transition: color .4s;
+    }
+
+    svg {
+      flex: 0 0 auto;
+      margin-top: 3px;
+      width: 12px;
+      height: 12px;
+      color: #29a0e8;
+      transition: color .4s;
+    }
+  }
+
+  /* On card hover the background turns dark via existing styles;
+     keep highlight text + icon legible. */
+  &:hover .service-highlights,
+  .service-auhtor-boxarea:hover .service-highlights {
+    li {
+      color: var(--ztc-text-text-1);
+      opacity: 0.92;
+    }
+    svg {
+      color: var(--ztc-text-text-1);
+    }
+  }
+}
+
+.service1-section-area .service-auhtor-boxarea:hover .service-highlights li {
+  color: var(--ztc-text-text-1);
+  opacity: 0.92;
+}
+.service1-section-area .service-auhtor-boxarea:hover .service-highlights svg {
+  color: var(--ztc-text-text-1);
+}
+
 /* ============= FLOATING WHATSAPP BUTTON =============
    Site-wide floating action button, bottom-right.
    - Double pulse ring for stronger pull
