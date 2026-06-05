@@ -9,62 +9,101 @@
   visibility: visible !important;
 }
 
-/* ============= SERVICE CARD HIGHLIGHTS LIST =============
-   Compact bulleted list inside each service card that surfaces the
-   key sub-services for that category (e.g. "Tesla & Level 2 chargers"
-   under "EV Charger Installation"). Intentionally minimal so the
-   existing service-card design stays untouched. */
-.service1-section-area .service-auhtor-boxarea .content-area {
-  .service-highlights {
-    list-style: none;
-    padding: 0;
-    margin: 18px 0 0;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 8px;
+/* ============= SERVICE CARD HIGHLIGHTS + RESPONSIVE TIGHTENING =============
+   Compact bulleted list inside each home-page service card + tighter
+   sizing so the whole card fits in one mobile/tablet viewport.
 
-    li {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-family: var(--ztc-family-font1);
-      font-size: 14px;
-      line-height: 1.5;
-      color: var(--ztc-text-text-4);
-      font-weight: 500;
-      transition: color .4s;
-    }
-
-    svg {
-      flex: 0 0 auto;
-      margin-top: 3px;
-      width: 12px;
-      height: 12px;
-      color: #29a0e8;
-      transition: color .4s;
-    }
+   IMPORTANT: All overrides below are scoped to `.home-services-grid` (an
+   extra class only present on the home page's Service component). Inner
+   pages like /service, /service-left, /service-right, /service-single
+   that use `.service1-section-area` WITHOUT `.home-services-grid` are
+   unaffected and look exactly the same as before. */
+.home-services-grid.service1-section-area .service-auhtor-boxarea {
+  /* Cap image height so the photo doesn't dominate the card on small screens */
+  .img1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
   }
 
-  /* On card hover the background turns dark via existing styles;
-     keep highlight text + icon legible. */
-  &:hover .service-highlights,
-  .service-auhtor-boxarea:hover .service-highlights {
-    li {
-      color: var(--ztc-text-text-1);
-      opacity: 0.92;
+  /* Tighter content-area padding overall, even tighter on small screens */
+  .content-area {
+    padding: 56px 28px 24px 28px;
+
+    @media (max-width: 991px) {
+      padding: 52px 24px 22px 24px;
     }
-    svg {
-      color: var(--ztc-text-text-1);
+    @media (max-width: 575px) {
+      padding: 48px 20px 20px 20px;
+    }
+
+    /* Tighten the existing description paragraph */
+    & > p {
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+
+    /* Slightly smaller number badge so it eats less top padding */
+    & > h3 {
+      height: 70px;
+      width: 70px;
+      line-height: 70px;
+      margin-top: -90px;
+      margin-bottom: 18px;
+    }
+
+    /* Title link */
+    & > a:not(.readmore) {
+      font-size: 20px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .service-highlights {
+      list-style: none;
+      padding: 0;
+      margin: 14px 0 0;
+      text-align: left;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+
+      li {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        font-family: var(--ztc-family-font1);
+        font-size: 13px;
+        line-height: 1.45;
+        color: var(--ztc-text-text-4);
+        font-weight: 500;
+        transition: color .4s;
+      }
+
+      svg {
+        flex: 0 0 auto;
+        margin-top: 3px;
+        width: 11px;
+        height: 11px;
+        color: #29a0e8;
+        transition: color .4s;
+      }
+    }
+
+    .readmore {
+      margin-top: 16px !important;
     }
   }
 }
 
-.service1-section-area .service-auhtor-boxarea:hover .service-highlights li {
+/* Highlight bullets stay legible on the dark hover state */
+.home-services-grid.service1-section-area .service-auhtor-boxarea:hover .service-highlights li {
   color: var(--ztc-text-text-1);
   opacity: 0.92;
 }
-.service1-section-area .service-auhtor-boxarea:hover .service-highlights svg {
+.home-services-grid.service1-section-area .service-auhtor-boxarea:hover .service-highlights svg {
   color: var(--ztc-text-text-1);
 }
 

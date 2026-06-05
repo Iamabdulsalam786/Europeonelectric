@@ -27,79 +27,71 @@ const serviceData: ServiceType[] = [
     image: img1,
     number: 1,
     title: 'Residential Electrical',
-    description:
-      'Full-service repairs, installations and rewiring for homes — from troubleshooting flickering lights to upgrading your entire electrical panel.',
-    highlights: ['Repairs & troubleshooting', 'Outlets, switches & fixtures', 'Whole-house rewiring', 'Panel & service upgrades'],
+    description: 'Repairs, installations and rewiring for homes — done safely and to code.',
+    highlights: ['Repairs & troubleshooting', 'Whole-house rewiring', 'Panel & service upgrades'],
   },
   {
     duration: 1000,
     image: img2,
     number: 2,
     title: 'Commercial Electrical',
-    description:
-      'Tenant build-outs, dedicated power systems, lighting retrofits and preventive maintenance for offices, retail and restaurants.',
-    highlights: ['Tenant improvements', 'Power distribution systems', 'LED & emergency lighting', 'Maintenance & repairs'],
+    description: 'Tenant build-outs, power systems and lighting for offices, retail and restaurants.',
+    highlights: ['Tenant improvements', 'Power distribution', 'LED & emergency lighting'],
   },
   {
     duration: 1200,
     image: img3,
     number: 3,
     title: 'EV Charger Installation',
-    description:
-      'Certified Tesla & Level 2 charger installs for homes and businesses, including circuit work, permits and ongoing diagnostics.',
-    highlights: ['Tesla & Level 2 chargers', 'Home charging stations', 'Fleet & commercial sites', 'Diagnostics & repairs'],
+    description: 'Certified Tesla & Level 2 charger installs for homes, businesses and fleets.',
+    highlights: ['Tesla & Level 2 chargers', 'Fleet & commercial sites', 'Diagnostics & repairs'],
   },
   {
     duration: 800,
     image: img4,
     number: 4,
     title: 'Lighting Solutions',
-    description:
-      'Indoor, outdoor and smart lighting designed and installed by certified pros — recessed, landscape, security, automated controls and more.',
-    highlights: ['Recessed & pendant lighting', 'Landscape & security lights', 'Smart switches & scenes', 'Motion & pathway lighting'],
+    description: 'Indoor, outdoor and smart lighting designed and installed by certified pros.',
+    highlights: ['Recessed & pendant lighting', 'Landscape & security lights', 'Smart switches & controls'],
   },
   {
     duration: 1000,
     image: img5,
     number: 5,
     title: 'Panel Upgrades',
-    description:
-      '100A to 200A and 200A to 400A service upgrades, panel & breaker replacements, subpanels and meter coordination with the utility.',
-    highlights: ['Panel replacement', '100A → 200A → 400A upgrades', 'Subpanel installation', 'Breaker & fuse box swaps'],
+    description: '100A to 400A service upgrades, panel and breaker replacements, subpanels.',
+    highlights: ['Panel replacement', '100A → 200A → 400A upgrades', 'Subpanels & breakers'],
   },
   {
     duration: 1200,
     image: img6,
     number: 6,
     title: 'Safety & Inspections',
-    description:
-      'Code-compliance inspections, GFCI/AFCI installs, grounding and surge protection — keeping your property safe and insurance-ready.',
-    highlights: ['Home & commercial inspections', 'GFCI / AFCI installation', 'Surge protection & grounding', 'Permit & code corrections'],
+    description: 'Code-compliance inspections, GFCI/AFCI installs and surge protection.',
+    highlights: ['Home & commercial inspections', 'GFCI / AFCI installation', 'Surge protection & grounding'],
   },
   {
     duration: 800,
     image: img7,
     number: 7,
     title: '24/7 Emergency Service',
-    description:
-      'Round-the-clock response for burning smells, power outages, electrical fires, tripped breakers and storm damage. Residential & commercial.',
-    highlights: ['Power outage diagnosis', 'Burning smell investigations', 'Emergency breaker replacement', 'Storm damage repairs'],
+    description: 'Round-the-clock response for outages, burning smells and storm damage.',
+    highlights: ['Power outage diagnosis', 'Burning smell investigations', 'Storm damage repairs'],
   },
   {
     duration: 1000,
     image: img8,
     number: 8,
     title: 'New Construction & Remodels',
-    description:
-      'Complete electrical design and install for new builds, kitchen & bath remodels, additions and ADUs — plus temporary construction power.',
-    highlights: ['Full electrical system design', 'New home & commercial wiring', 'Kitchen / bath remodel wiring', 'Appliance & fixture hookups'],
+    description: 'Complete electrical design and install for new builds, remodels and ADUs.',
+    highlights: ['Full electrical system design', 'New home & commercial wiring', 'Kitchen & bath remodels'],
   },
 ]
 
 const Service = () => {
   return (
     <>
-      <div className="service1-section-area sp2">
+      <div className="service1-section-area home-services-grid sp2">
         <Container>
           <Row>
             <Col lg={7} className="m-auto">
